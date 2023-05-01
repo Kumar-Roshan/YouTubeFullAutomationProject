@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/kumar/IdeaProjects/YouTubeAutomation">
+        <parameter name="browser" value="chrome"></parameter>
+        <parameter name="url" value="https://www.youtube.com/"></parameter>
+        <classes>
+            <class name="org.example.YouTubeHomePageTest"></class>
+            <class name="org.example.YouTubeSearchResultsPageTest"></class>
+            <class name="org.example.YouTubeVideoPlayerPageTest"/>
+            <class name="org.example.RenamePlaylistPageTest"></class>
+            <class name="org.example.DeletePlaylistPageTest"></class>
+            <class name="org.example.LogoutPageTest"></class>
+        </classes>
+    </test>
+</suite>
